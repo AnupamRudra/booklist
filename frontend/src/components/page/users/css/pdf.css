@@ -1,0 +1,42 @@
+.pdf-page-bg{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4QBWIwwtyIGmQH6zLcnlMGkTlYIveOKSiD1otlwzs7iohQkZUOyZtcrAZcdeGtGdYHo&usqp=CAU'); */
+    background-size: contain;
+    background-repeat: repeat;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+.bg-remove{
+    mix-blend-mode: color-burn !important;
+}
+.bg-hard-light{
+    mix-blend-mode: hard-light;
+}
+.pdf-bg{
+    background-color: #e0d2c9;
+    height: 100%;
+    width: 100%;
+}
+.download-icon{
+    margin-top: -40px;
+    margin-right: -33px;
+}
+iframe{
+    height: 100vh;
+    width: 100%;
+}
+
+.sheet {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    page-break-after: always;
+}
+.A4{
+    width: 210mm !important; 
+    height: 296mm !important
+}
+.A4 .page-number{
+    margin-bottom: -15px;
+    color: gray;
+}

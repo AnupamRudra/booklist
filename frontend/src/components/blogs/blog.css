@@ -1,0 +1,8 @@
+.blog p{
+    line-height: 30px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: #64686d;
+    text-align: justify;
+    justify-content: center;
+}
